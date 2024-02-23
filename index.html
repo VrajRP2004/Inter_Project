@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 class="pencile"><img style="border: 50%; width: 70px; height: 70px; display: inline; top:90%" src="pencile-removebg-preview.png" alt=""></h1>
+    <nav class="navbar">
+        <div class="navlogo">
+            <img src="logo-in.jpg" class="logo" alt="">
+        </div>
+        <div>
+            <input class="navsearch" type="text" placeholder="Search for your favorite groups in ATG">
+        </div>
+        <button class="dropdown-buttonx navlogin " style="background-color: white; border: 0px;" onclick="toggleSliceDropdown('sliceDropdown1')" >
+            <div>Create account.</div>
+            <div style="margin-left: 4px; color: rgb(63, 63, 209); font-weight: bold;">It's free!</div>
+        </button>
+        <div id="sliceDropdown1" class="slice-dropdownx">
+            <!-- Dropdown options -->
+            <div class="s1" >
+               <button onclick="toggleSliceDropdown('sliceDropdown1')"> <img class="crx" src="cross.png" alt=""></button>
+            </div>
+            <div class="green">Let's learn, share & inspire each other with our passion for comppter engineering. Sign up now</div>
+            <div class="s2">
+                <div class="sign">
+                    <div class="heading">Sign In</div>
+                    <input style="border: 1px solid grey; border-radius: 2px; margin-top: 24px; height: 46px;background-color: white; width: 300px; padding-left: 20px;" type="email"  placeholder="Email">
+                    <input style="border: 1px solid grey; border-radius: 2px; margin-top: 0px;padding-left: 20px; height: 46px;background-color: white; width: 300px;" type="password" placeholder="Password">
+                    <button onclick="toggleSliceDropdown('sliceDropdown1')" style="background-color: 
+                    #2F6CE5; height: 40px; width: 320px; border-radius: 20px; margin-top: 19px; color: white; font-weight: bold; font-size: 14px;">sign In</button>
+                    <div style=" margin-top: 24px;height: 38px; width: 320px; display: flex;border: 1px solid grey; align-items: center; ">
+                        <img style="margin-left: 55px; height: 16px;" src="facebook-removebg-preview.png" alt="">
+                        <div>Sign in with facebook</div>
+                    </div>
+                    <div style=" margin-top: 8px;height: 38px; width: 320px; display: flex;border: 1px solid grey; align-items: center; ">
+                        <img style="margin-left: 67px; height: 16px;" src="google-removebg-preview.png" alt="">
+                        <div>Sign in with Google</div>
+                    </div>
+                    <div style="margin-top: 23px; margin-left: 88px; margin-bottom: 31px;">Forget Password?</div>
+                </div>
+                <button onclick="toggleSliceDropdown('keyur')" style="background-color: white;height: 20px; display: flex; margin-top: 31px;margin-left:25px ;">
+                    <div>Don't have an account yet? </div>
+                    <div style="color: blue; font-weight: bold; margin-left: 10px;">Create new for free!</div>
+                </button>
+                <div id="keyur" class="loging">
+                    <!-- Dropdown options -->
+                    <div class="s1" >
+                       <button onclick="toggleSliceDropdown('sliceDropdown1')"> <img class="crx" src="cross.png" alt=""></button>
+                    </div>
+                    <div class="green"  style="height: 30px; ">Let's learn, share & inspire each other with our passion for comppter engineering. Sign up now</div>
+                    <div class="s2">
+                        <div class="sign">
+                            <div class="heading">Create Account</div>
+                            <div style="display: flex; border:0px; margin-top: 20px; height: 40px;background-color: white; width: 300px; padding-left: 0px;">
+                                <input style="padding-left: 20px ; width: 139px; border:1px solid grey; border-radius: 2px;" type="text" name="" id="" placeholder="First Name">
+                                <input style="padding-left: 20px ; width: 139px; border:1px solid grey; border-radius: 2px;" type="text" name="" id="" placeholder="Last Name">
+                            </div>
+                            <input style="border: 1px solid grey; border-radius: 2px; margin-top: 0px; height: 40px;background-color: white; width: 300px; padding-left: 20px;" type="email"  placeholder="Email">
+                            <input style="border: 1px solid grey; border-radius: 2px; margin-top: 0px;padding-left: 20px; height: 40px;background-color: white; width: 300px;" type="password" placeholder="Password">
+                            <input style="border: 1px solid grey; border-radius: 2px; margin-top: 0px;padding-left: 20px; height: 40px;background-color: white; width: 300px;" type="password" placeholder="Confirm Password">
+                            <button onclick="toggleSliceDropdown('sliceDropdown1')" style="background-color: 
+                            #2F6CE5; height: 40px; width: 320px; border-radius: 20px; margin-top: 19px; color: white; font-weight: bold; font-size: 14px;">Create Account</button>
+                            <div style=" margin-top: 20px;height: 38px; width: 320px; display: flex;border: 1px solid grey; align-items: center; ">
+                                <img style="margin-left: 55px; height: 16px;" src="facebook-removebg-preview.png" alt="">
+                                <div>Sign in with facebook</div>
+                            </div>
+                            <div style=" margin-top: 8px;height: 38px; width: 320px; display: flex;border: 1px solid grey; align-items: center; ">
+                                <img style="margin-left: 67px; height: 16px;" src="google-removebg-preview.png" alt="">
+                                <div>Sign in with Google</div>
+                            </div>
+                        </div>
+                        <button onclick="toggleSliceDropdown('keyur')" style="background-color: white;height: 20px; display: flex; margin-top: 31px;margin-left:25px ;">
+                            <div>Do you have an account? </div>
+                            <div style="color: blue; font-weight: bold; margin-left: 10px;">Sing Up!</div>
+                        </button>
+                        
+                        
+        
+                        
+                        
+                        
+        
+        
+        
+                    </div>
+                    <div></div>
+                
+                </div>
+            </div>
+            <div></div>
+        
+        </div>
+        <div class="toggle">
+            <div class="ret1"></div>
+            <div class="ret2"></div>
+            <div class="ret3"></div>
+        </div>
+    </nav>
+    <div class="homeimg">
+        <div class="overlay"></div>
+        <button style='position: relative;'onclick="toggleSliceDropdown('sliceDropdown1')"  class="gjb">Join Group</button>
+        
+        <div class="test">
+            <div style="position: relative; color: white; font-weight: bold; font-size: 30px;">Computer Engineering
+            </div>
+            <div style="position: relative; color: white;  font-size: 12px">142,765 Computer Engineers follow this</div>
+        </div>
+        
+    </div>
+    <div class="menu">
+    <div class="menu1" id="vraj" style="background-color: white;">
+        <div class="row1menu" style="padding-top: 10px;">
+            <a class="sel1" style="color: black;">All Post(32)</a>
+            <a class="sel">Article</a>
+            <a class="sel">Event</a>
+            <a class="sel">Education</a>
+            <a class="sel">Job</a>
+        </div>
+        <div class="rightmenu">
+            <div style="margin-right: 16px;">
+                <select class="select" name="" id="">
+                    <option value="" style="text-align: center;">Write a Post</option>
+                </select>
+            </div>
+            <button class="groupbut">
+                <img class="groupic" src="group.png" alt="">
+                <div class="add">Join Group</div>
+            </button>
+            
+        </div>
+        <select class="selfilt" name="" id=""><option value="">Filter: All</option></select>
+    </div>
+    </div>
+    <div class="data">
+        <div class="rdata">
+            <img class="rdimg" src="mountain.jpg" alt="">
+            <div class="writerdata">
+                <div class="rfdata">
+                    <img class="whand" src="hand.png" alt="">
+                    <span style="margin-top: 5px; margin-left: 8px;">Article</span>
+                </div>
+                <div class="wrsdata">
+                    <div>
+                        What if Famous brands had fronts? Meet <br> RegularBrands!
+                    </div>
+                    <div>
+                        <button class="dropdown-button" onclick="toggleDropdown('dropdownOptions')"  ><img style="height: 28px; margin-bottom: 10px;" src="threedot-removebg-preview.png" alt="">
+                        <div id="dropdownOptions" class="dropdown-options" >
+                            <div class="">Edit</div>
+                            <div class="">Report </div>
+                            <div class="">Option 3</div>
+                        </div></button>
+                        
+                    </div>
+                </div>
+                <div class="lastsec">
+                    I've worked in UX for the better part of a decade. From now on, I plan...
+                </div>
+                <div class="lrf">
+                    <div class="flrf">
+                        <img class="fimg" src="human.jpg" alt="">
+                        <div class="lname">Sarthak kamra</div>
+                    </div>
+                    <div class="rrf">
+                        <div class="containeye">
+                            <img class="eyec" src="eye.webp" alt="">
+                        </div>
+                        <div class="views">1.4k views</div>
+                        <button class="sharebut">
+                            <img class="sharebutimg" src="share.png" alt="">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ldata" style="margin-top: 40px; padding: 100px;">
+            <div>
+                <img class="log" src="location.png" alt="">
+                <input class="enloc" type="text" placeholder="Enter your location" name="" id="">
+                <img class="mul" src="multi-removebg-preview.png" alt="">
+            </div>
+            <div class="rs">
+                <img src="mark-removebg-preview.png" class="markimg" alt="">
+                Your location will help serve better <br> and extend a personalised experience. 
+            </div>
+            <div class="rec">
+                <img class="likesrc" src="like-removebg-preview.png" alt="">
+                <div class="recom">
+                RECOMENDED GROUPS
+
+                </div>
+            </div>
+            <div class="user">
+                <img class="f1" src="f1.jpg" alt="">
+                <div style="margin-left: 12px; margin-top: 9px;">Leisure</div>
+                <button style="border-radius: 14px;margin-left: 45px; width: 50px; margin-top: 3px;">Follow</button>
+            </div>
+            <div class="user" style="margin-left: 2px;">
+                <img class="f1" src="f2.jpg" alt="">
+                <div style="margin-left: 12px; margin-top: 9px;">Activism</div>
+                <button style="border-radius: 14px;margin-left: 39px;  width: 50px; margin-top: 3px;">Follow</button>
+            </div>
+            <div class="user" style="margin-left: 4px;">
+                <img class="f1" src="f3.jpg" alt="">
+                <div style="margin-left: 12px; margin-top: 9px;">MBA</div>
+                <button style="border-radius: 14px;margin-left:64px;  width: 50px; margin-top: 3px;">Follow</button>
+            </div>
+            <div class="user" style="margin-left: 6px;">
+                <img class="f1" src="f4.jpg" alt="">
+                <div style="margin-left: 12px; margin-top: 9px;">Philosopy</div>
+                <button style="border-radius: 14px;margin-left: 31px;  width: 50px; margin-top: 3px;">Follow</button>
+            </div>
+        </div>
+    </div>
+    <div class="data1" >
+        <div class="rdata">
+            <img class="rdimg" src="img2.jpg" alt="">
+            <div class="writerdata">
+                <div class="rfdata">
+                    <img class="whand" src="bio.png" alt="">
+                    <span style="margin-top: 5px; margin-left: 8px;">Education</span>
+                </div>
+                <div class="wrsdata">
+                    <div>
+                        Tax Benefits for Investment under National Person <br> Scheme launched by Goverment
+                    </div>
+                    <div>
+                        <button class="dropdown-button" onclick="toggleDropdown('dropdownOptions1')" style="height: 28px;width: 40px; margin-right: 20px;" ><img style="height: 28px; margin-bottom: 10px;" src="threedot-removebg-preview.png" alt="">
+                            <div id="dropdownOptions1" class="dropdown-options">
+                                <div class="">Edit</div>
+                                <div class="">Report </div>
+                                <div class="">Option 3</div>
+                            </div></button>
+                        
+                    </div>
+                </div>
+                <div class="lastsec">
+                    I've worked in UX for the better part of a decade. From now on, I plan...
+                </div>
+                <div class="lrf">
+                    <div class="flrf">
+                        <img class="fimg" src="human2.jpg" alt="">
+                        <div class="lname">Sarah West</div>
+                    </div>
+                    <div class="rrf">
+                        <div class="containeye">
+                            <img class="eyec" src="eye.webp" alt="">
+                        </div>
+                        <div class="views">1.4k views</div>
+                        <button class="sharebut">
+                            <img class="sharebutimg" src="share.png" alt="">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ldata">
+            
+        </div>
+    </div>
+    <div class="data1" style="margin-top: 15px;" >
+        <div class="rdata" style="height: 540px;">
+            <img class="rdimg" src="img3.jpg" alt="">
+            <div class="writerdata">
+                <div class="rfdata">
+                    <img class="whand" src="calendar.png" alt="">
+                    <span style="margin-top: 5px; margin-left: 8px;">Meetup</span>
+                </div>
+                <div class="wrsdata">
+                    <div>
+                        Finance & Investment Elite Social Mixer @Lujiazui
+                    </div>
+                    <div>
+                        <button class="dropdown-button" onclick="toggleDropdown('dropdownOptions2')" style="height: 28px;width: 40px; margin-right: 20px;" ><img style="height: 28px; margin-bottom: 10px;" src="threedot-removebg-preview.png" alt="">
+                            <div id="dropdownOptions2" class="dropdown-options">
+                                <div class="">Edit</div>
+                                <div class="">Report </div>
+                                <div class="">Option 3</div>
+                            </div></button>
+                        
+                    </div>
+                </div>
+                <div class="lastsec">
+                    <img class="whand" style="height: 15px;" src="calendar.png" alt="">
+                    Fri, 12 Oct, 2018
+                    <img class="whand" style="margin-left: 60px;" src="location.png" alt="">Ahmedabad, India
+                </div>
+                <div style="margin-top: 16px;border-radius: 8px;text-align: center;padding: 10px; width:85%; border:  1px solid black;color: orange; height: 24px; margin-left: 20px;">Visit Website</div>
+                <div class="lrf">
+                    <div class="flrf">
+                        <img class="fimg" src="human3.jpg" alt="">
+                        <div class="lname">Ronal Jones</div>
+                    </div>
+                    <div class="rrf">
+                        <div class="containeye">
+                            <img class="eyec" src="eye.webp" alt="">
+                        </div>
+                        <div class="views">1.4k views</div>
+                        <button class="sharebut">
+                            <img class="sharebutimg" src="share.png" alt="">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ldata">
+            
+        </div>
+    </div>
+    <div class="data1" style="margin-top: 20px;">
+        <div class="rdata" style="height: 320px;">
+           
+            <div class="writerdata" style="height: auto;">
+                <div class="rfdata">
+                    <img class="whand" src="calendar.png" alt="">
+                    <span style="margin-top: 5px; margin-left: 8px;">Meetup</span>
+                </div>
+                <div class="wrsdata">
+                    <div>
+                        Finance & Investment Elite Social Mixer @Lujiazui
+                    </div>
+                    <div>
+                        <button class="dropdown-button" onclick="toggleDropdown('dropdownOptions3')" style="height: 28px;width: 40px; margin-right: 20px;" ><img style="height: 28px; margin-bottom: 10px;" src="threedot-removebg-preview.png" alt="">
+                            <div id="dropdownOptions3" class="dropdown-options">
+                                <div class="">Edit</div>
+                                <div class="">Report </div>
+                                <div class="">Option 3</div>
+                            </div></button>
+                        
+                    </div>
+                </div>
+                <div class="lastsec">
+                    <img class="whand" style="height: 15px;" src="calendar.png" alt="">
+                    Fri, 12 Oct, 2018
+                    <img class="whand" style="margin-left: 60px;" src="location.png" alt="">Ahmedabad, India
+                </div>
+                <div style="margin-top: 16px;border-radius: 8px;text-align: center;padding: 10px; width:85%; border:  1px solid black;color: orange; height: 24px; margin-left: 20px;">Visit Website</div>
+                <div class="lrf">
+                    <div class="flrf">
+                        <img class="fimg" src="human3.jpg" alt="">
+                        <div class="lname">Ronal Jones</div>
+                    </div>
+                    <div class="rrf">
+                        <div class="containeye">
+                            <img class="eyec" src="eye.webp" alt="">
+                        </div>
+                        <div class="views">1.4k views</div>
+                        <button class="sharebut">
+                            <img class="sharebutimg" src="share.png" alt="">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ldata">
+            
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
